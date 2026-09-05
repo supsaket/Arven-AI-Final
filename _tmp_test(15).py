@@ -1,0 +1,10 @@
+﻿from brain.brain import Brain
+b = Brain()
+r = b.process("open notepad")
+print("1:", r["response"])
+r = b.process("close it")
+print("2:", r["response"])
+r = b.process("what is my favorite color")
+print("3:", r["category"], "|", r["response"][:150])
+r = b.process("how much ram am i using")
+print("4:", r["category"], "|", r["response"][:150])

@@ -1,0 +1,11 @@
+{
+  "tests/test_paths.py::test_known_folder_unknown_returns_none": true,
+  "tests/test_skills.py::test_skill_executable_flag_false_without_entry": true,
+  "tests/test_communication_tools.py::test_email_send_requires_confirmation": true,
+  "tests/test_communication_tools.py::test_email_send_with_confirmation": true,
+  "tests/test_communication_tools.py::test_calendar_create_requires_confirmation": true,
+  "tests/test_communication_tools.py::test_calendar_create_with_confirmation": true,
+  "tests/test_communication_tools.py::test_messaging_send_requires_confirmation": true,
+  "tests/test_communication_tools.py::test_messaging_send_with_confirmation": true,
+  "tests/test_proactive.py::test_scheduler_suggestion_integration": true
+}

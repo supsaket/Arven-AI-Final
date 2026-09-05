@@ -1,0 +1,4 @@
+{
+  "tests/test_paths.py::test_known_folder_unknown_returns_none": true,
+  "tests/test_skills.py::test_skill_executable_flag_false_without_entry": true
+}

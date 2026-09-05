@@ -1,0 +1,12 @@
+desktop/ui/views.py: replacements=0
+desktop/ui/transcript.py: replacements=0
+desktop/ui/theme.py: replacements=0
+desktop/ui/window.py: replacements=0
+desktop/ui/widgets.py: replacements=0
+desktop/controller.py: replacements=0
+desktop/shutdown.py: replacements=0
+desktop/input_policy.py: replacements=0
+desktop/state.py: replacements=0
+desktop/single_instance.py: replacements=0
+desktop/hotkey.py: replacements=0
+app.py: replacements=0
