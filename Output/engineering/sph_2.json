@@ -1,0 +1,13 @@
+{
+  "type": "ARVEN_GEOMETRY",
+  "name": "sph",
+  "kind": "sphere",
+  "payload": {
+    "kind": "sphere",
+    "name": "sph",
+    "vertices": 289,
+    "facets": 512,
+    "volume_units3": 4.18879,
+    "volume_note": "analytic volume"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "reasoning.current": {
+    "level": "HIGH",
+    "source": "manual",
+    "mission_id": null,
+    "at": 1788774612.8255856,
+    "note": ""
+  },
+  "reasoning.effective_cap": {
+    "level": "HIGH",
+    "effective": "HIGH",
+    "supported_max": {
+      "level": "XHIGH",
+      "provider": "ollama",
+      "matched": "ollama",
+      "assumption": true,
+      "note": "[REDACTED]"
+    },
+    "at": 1788774523.854603
+  }
+}

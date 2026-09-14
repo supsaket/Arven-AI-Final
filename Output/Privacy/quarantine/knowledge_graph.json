@@ -1,0 +1,39 @@
+{
+  "graph.nodes": {
+    "math": {
+      "id": "math",
+      "type": "topic",
+      "attrs": {
+        "desc": "math"
+      },
+      "retired": false,
+      "created_at": 1788696530.154863
+    },
+    "n_math": {
+      "id": "n_math",
+      "type": "topic",
+      "attrs": {
+        "d": 1
+      },
+      "retired": false,
+      "created_at": 1788696586.977985
+    },
+    "n_py": {
+      "id": "n_py",
+      "type": "topic",
+      "attrs": {},
+      "retired": false,
+      "created_at": 1788696586.980511
+    }
+  },
+  "graph.retired": [],
+  "graph.edges": {
+    "n_math\u001fn_py\u001frelated_to": {
+      "src": "n_math",
+      "dst": "n_py",
+      "relation": "related_to",
+      "weight": 1.0,
+      "added_at": 1788696586.9827313
+    }
+  }
+}

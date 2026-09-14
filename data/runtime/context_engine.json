@@ -1,0 +1,14 @@
+{
+  "context.focus": [
+    "python"
+  ],
+  "context.events": [
+    {
+      "ts": 1788696586.9859636,
+      "text": "remember umbrella",
+      "tags": [
+        "todo"
+      ]
+    }
+  ]
+}

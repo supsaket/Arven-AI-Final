@@ -1,0 +1,43 @@
+{
+  "messaging.templates": {
+    "greet": {
+      "name": "greet",
+      "subject": "Hello",
+      "body": "Hi {name}"
+    }
+  },
+  "messaging.drafts": {
+    "message_1788696147086427600": {
+      "id": "message_1788696147086427600",
+      "kind": "message",
+      "subject": "",
+      "body": "hi",
+      "recipient": null,
+      "created_at": 1788696147.0864284
+    },
+    "message_1788696327943646800": {
+      "id": "message_1788696327943646800",
+      "kind": "message",
+      "subject": "",
+      "body": "hi",
+      "recipient": null,
+      "created_at": 1788696327.943648
+    },
+    "email_1788758416549888800": {
+      "id": "email_1788758416549888800",
+      "kind": "email",
+      "subject": "",
+      "body": "",
+      "recipient": null,
+      "created_at": 1788758416.5498898
+    },
+    "message_1788758416614340000": {
+      "id": "message_1788758416614340000",
+      "kind": "message",
+      "subject": "",
+      "body": "",
+      "recipient": null,
+      "created_at": 1788758416.614343
+    }
+  }
+}

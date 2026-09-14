@@ -1,0 +1,38 @@
+{
+  "missions.registry": {
+    "mission_1788696707871847900": {
+      "id": "mission_1788696707871847900",
+      "title": "learn python",
+      "goal": "learn python",
+      "priority": 2,
+      "status": "active",
+      "created_at": 1788696707.8718498,
+      "budget_seconds": null,
+      "steps": [
+        {
+          "id": "read_0",
+          "title": "read",
+          "status": "open",
+          "depends": [],
+          "result": null
+        },
+        {
+          "id": "code_1",
+          "title": "code",
+          "status": "open",
+          "depends": [],
+          "result": null
+        }
+      ],
+      "checkpoint_log": [
+        {
+          "at": 1788696707.8718517,
+          "event": "created",
+          "detail": "learn python"
+        }
+      ],
+      "audit": [],
+      "escalations": []
+    }
+  }
+}

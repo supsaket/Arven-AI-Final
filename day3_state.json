@@ -1,0 +1,321 @@
+{
+  "created_at": "2026-09-07T10:27:27.915501",
+  "targets": {
+    "T1": {
+      "feature": "T1",
+      "name": "Terminal Command Chain & Orchestration",
+      "features": "51/58/89",
+      "state": "FINAL",
+      "started_at": "2026-09-07T10:27:27.915524",
+      "updated_at": "2026-09-07T11:21:19.492590",
+      "implementation": [],
+      "tests": [
+        {
+          "path": "tests/day3/test_day3_terminal.py",
+          "at": "2026-09-07T11:21:19.458997"
+        }
+      ],
+      "failures": [
+        {
+          "state": "WORK",
+          "at": "2026-09-07T10:27:39.130001",
+          "note": "inspection complete, implementation starts"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "core/terminal_engine.py",
+          "at": "2026-09-07T10:55:35.218877"
+        }
+      ],
+      "limitations": [
+        {
+          "note": "_classify now reads the tool's declared risk (Tool.risk) instead of the name-table fallback; cyber_scan correctly reports high.",
+          "at": "2026-09-07T10:55:35.101433"
+        }
+      ],
+      "finalized_at": "2026-09-07T11:21:19.492596"
+    },
+    "T2": {
+      "feature": "T2",
+      "name": "Planner -> Registry Execution & Replan",
+      "features": "74",
+      "state": "FINAL",
+      "started_at": "2026-09-07T10:27:27.915528",
+      "updated_at": "2026-09-07T11:21:19.503111",
+      "implementation": [],
+      "tests": [
+        {
+          "path": "tests/day3/test_day3_failure_modes.py",
+          "at": "2026-09-07T11:21:19.460257"
+        },
+        {
+          "path": "tests/day3/test_day3_restart.py",
+          "at": "2026-09-07T11:21:19.462003"
+        }
+      ],
+      "failures": [
+        {
+          "state": "WORK",
+          "at": "2026-09-07T10:27:39.249929",
+          "note": "implementation starts"
+        },
+        {
+          "state": "WORK",
+          "at": "2026-09-07T10:55:34.743865",
+          "note": "PlanRunner.run infinite loop on escalation: the manual-review rescue step was re-dispatched as a tool every iteration (unknown tool -> escalate -> append another rescue). Fixed: rescue action prefixed with '@' is a non-dispatchable marker skipped in the run loop; re-verified two-step complete, replan-with-fallbacks complete, losing plan escalates and STOPS."
+        }
+      ],
+      "evidence": [
+        {
+          "path": "core/plan_execution.py",
+          "at": "2026-09-07T10:55:35.335088"
+        }
+      ],
+      "limitations": [
+        {
+          "note": "registry._wrap coerces empty-list results (backup_list with zero snapshots) to success=False; PlanRunner honors that honestly as a failure and replans/escalates - Day-2 wrap contract untouched.",
+          "at": "2026-09-07T10:55:34.868102"
+        },
+        {
+          "note": "escalated @manual_review step stays 'planned' in stored plan; resume() re-blocks idempotently",
+          "at": "2026-09-07T11:21:19.458168"
+        }
+      ],
+      "finalized_at": "2026-09-07T11:21:19.503119"
+    },
+    "T3": {
+      "feature": "T3",
+      "name": "Mission <-> Gated Tool Execution",
+      "features": "50/54",
+      "state": "FINAL",
+      "started_at": "2026-09-07T10:27:27.915531",
+      "updated_at": "2026-09-07T11:21:19.512204",
+      "implementation": [],
+      "tests": [
+        {
+          "path": "tests/day3/test_day3_terminal.py",
+          "at": "2026-09-07T11:21:19.463342"
+        },
+        {
+          "path": "tests/day3/test_day3_restart.py",
+          "at": "2026-09-07T11:21:19.464152"
+        }
+      ],
+      "failures": [
+        {
+          "state": "WORK",
+          "at": "2026-09-07T10:27:39.368305",
+          "note": "implementation starts"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "core/terminal_engine.py",
+          "at": "2026-09-07T10:55:35.450400"
+        }
+      ],
+      "limitations": [
+        {
+          "note": "MissionsEngine._normalize_steps drops tool/args keys; TerminalEngine.mission now dispatches from the original step dicts, id-aligned with normalized steps.",
+          "at": "2026-09-07T10:55:34.985811"
+        }
+      ],
+      "finalized_at": "2026-09-07T11:21:19.512210"
+    },
+    "T4": {
+      "feature": "T4",
+      "name": "Event Response End-to-End Hardening",
+      "features": "92",
+      "state": "FINAL",
+      "started_at": "2026-09-07T10:27:27.915535",
+      "updated_at": "2026-09-07T11:21:19.522037",
+      "implementation": [],
+      "tests": [
+        {
+          "path": "tests/day3/test_day3_integration.py",
+          "at": "2026-09-07T11:21:19.465194"
+        },
+        {
+          "path": "tests/day3/test_day3_persistence.py",
+          "at": "2026-09-07T11:21:19.466044"
+        }
+      ],
+      "failures": [],
+      "evidence": [
+        {
+          "path": "core/event_response.py",
+          "at": "2026-09-07T11:21:19.466927"
+        }
+      ],
+      "limitations": [],
+      "finalized_at": "2026-09-07T11:21:19.522042"
+    },
+    "T5": {
+      "feature": "T5",
+      "name": "Undo / Transaction Recovery Hardening",
+      "features": "102",
+      "state": "FINAL",
+      "started_at": "2026-09-07T10:27:27.915538",
+      "updated_at": "2026-09-07T11:21:19.531962",
+      "implementation": [],
+      "tests": [
+        {
+          "path": "tests/day3/test_day3_recovery.py",
+          "at": "2026-09-07T11:21:19.468339"
+        },
+        {
+          "path": "tests/day3/test_day3_restart.py",
+          "at": "2026-09-07T11:21:19.469752"
+        }
+      ],
+      "failures": [],
+      "evidence": [
+        {
+          "path": "core/undo.py",
+          "at": "2026-09-07T11:21:19.470827"
+        }
+      ],
+      "limitations": [],
+      "finalized_at": "2026-09-07T11:21:19.531969"
+    },
+    "T6": {
+      "feature": "T6",
+      "name": "Cyber Authorization & File-Audit Fix",
+      "features": "60",
+      "state": "FINAL",
+      "started_at": "2026-09-07T10:27:27.915541",
+      "updated_at": "2026-09-07T11:21:19.540832",
+      "implementation": [],
+      "tests": [
+        {
+          "path": "tests/day3/test_day3_security.py",
+          "at": "2026-09-07T11:21:19.471857"
+        },
+        {
+          "path": "tests/day3/test_day3_offline.py",
+          "at": "2026-09-07T11:21:19.473095"
+        }
+      ],
+      "failures": [
+        {
+          "state": "WORK",
+          "at": "2026-09-07T10:27:39.485685",
+          "note": "file-audit fix begins"
+        },
+        {
+          "state": "USABLE",
+          "at": "2026-09-07T11:21:19.454604",
+          "note": "file-audit read scan.get('findings')/('masked') keys that credential_scan never returns -> secrets silently undetected; fixed to use real contract (detected/types/count/n) and mask-note"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "core/cyber_toolkit.py",
+          "at": "2026-09-07T10:55:43.208827"
+        },
+        {
+          "path": "tools/registry.py",
+          "at": "2026-09-07T11:21:19.474964"
+        }
+      ],
+      "limitations": [],
+      "finalized_at": "2026-09-07T11:21:19.540836"
+    },
+    "T7": {
+      "feature": "T7",
+      "name": "Backup Integrity & Restore Refusal",
+      "features": "61",
+      "state": "FINAL",
+      "started_at": "2026-09-07T10:27:27.915543",
+      "updated_at": "2026-09-07T11:21:19.550020",
+      "implementation": [],
+      "tests": [
+        {
+          "path": "tests/day3/test_day3_recovery.py",
+          "at": "2026-09-07T11:21:19.476299"
+        },
+        {
+          "path": "tests/day3/test_day3_security.py",
+          "at": "2026-09-07T11:21:19.477407"
+        }
+      ],
+      "failures": [],
+      "evidence": [
+        {
+          "path": "core/backup.py",
+          "at": "2026-09-07T11:21:19.478305"
+        }
+      ],
+      "limitations": [],
+      "finalized_at": "2026-09-07T11:21:19.550023"
+    },
+    "T8": {
+      "feature": "T8",
+      "name": "Terminal CLI + Restored Text Entry",
+      "features": "51/58/89",
+      "state": "FINAL",
+      "started_at": "2026-09-07T10:27:27.915545",
+      "updated_at": "2026-09-07T11:21:19.559436",
+      "implementation": [],
+      "tests": [
+        {
+          "path": "tests/day3/test_day3_terminal.py",
+          "at": "2026-09-07T11:21:19.479251"
+        }
+      ],
+      "failures": [],
+      "evidence": [
+        {
+          "path": "cli.py",
+          "at": "2026-09-07T10:55:43.328444"
+        },
+        {
+          "path": "main.py",
+          "at": "2026-09-07T10:55:43.442091"
+        }
+      ],
+      "limitations": [],
+      "finalized_at": "2026-09-07T11:21:19.559444"
+    },
+    "T9": {
+      "feature": "T9",
+      "name": "Cross-Cutting Test Suite + Tracker",
+      "features": "architecture",
+      "state": "FINAL",
+      "started_at": "2026-09-07T10:27:27.915547",
+      "updated_at": "2026-09-07T11:21:19.568857",
+      "implementation": [],
+      "tests": [
+        {
+          "path": "tests/day3/conftest.py",
+          "at": "2026-09-07T11:21:19.480559"
+        }
+      ],
+      "failures": [
+        {
+          "state": "TO_ADD",
+          "at": "2026-09-07T11:21:19.456028",
+          "note": "registry gate classified by tool NAME not declared risk -> destructive/cyber gates bypassable with confirmed=True alone; fixed: pass the Tool object so SAFETY.risk_label honors tool.risk"
+        },
+        {
+          "state": "TO_ADD",
+          "at": "2026-09-07T11:21:19.457109",
+          "note": "tracker link() dedup poisoned by per-call timestamp; fixed to path-level dedupe"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "day3_lifecycle.py",
+          "at": "2026-09-07T11:21:19.481699"
+        },
+        {
+          "path": "core/plan_execution.py",
+          "at": "2026-09-07T11:21:19.482933"
+        }
+      ],
+      "limitations": [],
+      "finalized_at": "2026-09-07T11:21:19.568860"
+    }
+  }
+}

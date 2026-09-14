@@ -1,0 +1,148 @@
+{
+  "snapshot.latest": {
+    "generated_at": 1788855630.0507154,
+    "hardware": {
+      "cpu": {
+        "cores": 16,
+        "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+        "platform": "Windows",
+        "machine": "AMD64"
+      },
+      "ram": {
+        "total_bytes": 16989736960,
+        "available_bytes": 3381374976,
+        "available_pct": 19.9
+      },
+      "storage": {
+        "total_bytes": 480424300544,
+        "free_bytes": 240393158656,
+        "free_pct": 50.0
+      },
+      "gpu": {
+        "status": "AVAILABLE",
+        "devices": [
+          "GPU 0: NVIDIA GeForce RTX 2050 (UUID: GPU-63b7061c-251f-34f5-2af4-8e925ba87bd2)"
+        ]
+      },
+      "network": {
+        "connected": true,
+        "status": "AVAILABLE"
+      },
+      "mic": {
+        "status": "AVAILABLE",
+        "note": "sounddevice present; device unverified until first capture"
+      },
+      "speaker": {
+        "status": "UNVERIFIED",
+        "note": "Windows SAPI assumed; not measured"
+      },
+      "camera": {
+        "status": "NOT_INSTALLED",
+        "note": "no camera library (cv2) installed"
+      }
+    },
+    "software": {
+      "python": {
+        "available": true,
+        "path": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "version": "3.13.15"
+      },
+      "git": {
+        "available": true,
+        "path": "C:\\Program Files\\Git\\cmd\\git.EXE"
+      },
+      "node": {
+        "available": false
+      },
+      "docker": {
+        "available": false
+      },
+      "ffmpeg": {
+        "available": false
+      },
+      "ollama": {
+        "available": true,
+        "module": "ollama",
+        "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\ollama\\__init__.py"
+      },
+      "pytest": {
+        "available": true,
+        "module": "pytest",
+        "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest\\__init__.py"
+      },
+      "PIL": {
+        "available": true,
+        "module": "PIL",
+        "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\__init__.py"
+      },
+      "numpy": {
+        "available": true,
+        "module": "numpy",
+        "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__init__.py"
+      },
+      "psutil": {
+        "available": true,
+        "module": "psutil",
+        "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\psutil\\__init__.py"
+      },
+      "sounddevice": {
+        "available": true,
+        "module": "sounddevice",
+        "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sounddevice.py"
+      },
+      "pycaw": {
+        "available": true,
+        "module": "pycaw",
+        "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pycaw\\__init__.py"
+      },
+      "cv2": {
+        "available": false
+      },
+      "faster_whisper": {
+        "available": true,
+        "module": "faster_whisper",
+        "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\faster_whisper\\__init__.py"
+      },
+      "playwright": {
+        "available": false
+      }
+    },
+    "providers": {
+      "android": "NOT_CONFIGURED",
+      "browser": "NOT_CONFIGURED",
+      "camera": "AVAILABLE",
+      "finance": "AVAILABLE",
+      "home": "AVAILABLE",
+      "image_gen": "NOT_CONFIGURED",
+      "iot": "AVAILABLE",
+      "location": "AVAILABLE",
+      "messaging": "NOT_CONFIGURED",
+      "navigation": "AVAILABLE",
+      "shopping": "AVAILABLE",
+      "travel": "AVAILABLE",
+      "vehicle": "AVAILABLE",
+      "video_gen": "NOT_CONFIGURED",
+      "vision": "NOT_CONFIGURED",
+      "world_actions": "AVAILABLE"
+    },
+    "permissions": {
+      "configured": false,
+      "grant_count": 0,
+      "grants": [],
+      "roles": {},
+      "note": "read-only snapshot of data/access.json"
+    },
+    "capabilities": {
+      "embeddings": "available",
+      "files": "available",
+      "local_ops": "available",
+      "memory": "available",
+      "notes": "available",
+      "ollama": "available",
+      "scheduler": "available",
+      "tasks": "available",
+      "text": "available",
+      "vision": "not_configured"
+    }
+  }
+}

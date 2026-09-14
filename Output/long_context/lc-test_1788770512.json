@@ -1,0 +1,8 @@
+{
+  "name": "lc-test",
+  "saved_at": 1788770512.9506857,
+  "state": {
+    "ctx": "RETRIEVE->COMPRESS->COMPACT->CONTINUE",
+    "done": 3
+  }
+}

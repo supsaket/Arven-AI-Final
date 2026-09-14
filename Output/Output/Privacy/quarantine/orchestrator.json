@@ -1,0 +1,18 @@
+{
+  "orchestrations": {
+    "mission_1788763001348935700": {
+      "goal": "check software",
+      "plan_id": "check-software",
+      "mission_id": "mission_1788763001348935700",
+      "created_at": 1788763001.351411,
+      "report_path": null,
+      "steps": [
+        {
+          "title": "capability_software",
+          "tool": "capability_software",
+          "args": {}
+        }
+      ]
+    }
+  }
+}

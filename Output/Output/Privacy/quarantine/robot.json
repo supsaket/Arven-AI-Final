@@ -1,0 +1,28 @@
+{
+  "joint_state": {
+    "shoulder": {
+      "min": -180.0,
+      "max": 180.0,
+      "home": 0.0,
+      "current": 0.0
+    },
+    "elbow": {
+      "min": -135.0,
+      "max": 135.0,
+      "home": 0.0,
+      "current": 0.0
+    },
+    "wrist": {
+      "min": -180.0,
+      "max": 180.0,
+      "home": 0.0,
+      "current": 0.0
+    },
+    "gripper": {
+      "min": 0.0,
+      "max": 100.0,
+      "home": 50.0,
+      "current": 50.0
+    }
+  }
+}

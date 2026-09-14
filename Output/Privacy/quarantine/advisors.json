@@ -1,0 +1,167 @@
+{
+  "_followups": [],
+  "_curricula": {
+    "6c22cac8": {
+      "id": "6c22cac8",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "x"
+            ]
+          },
+          "quiz_draft": {
+            "question": "[REDACTED]",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['x']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "[REDACTED]"
+    },
+    "0122e5bf": {
+      "id": "0122e5bf",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "x"
+            ]
+          },
+          "quiz_draft": {
+            "question": "[REDACTED]",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['x']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "[REDACTED]"
+    },
+    "3e7d69fc": {
+      "id": "3e7d69fc",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "x"
+            ]
+          },
+          "quiz_draft": {
+            "question": "[REDACTED]",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['x']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "[REDACTED]"
+    },
+    "60da0e0a": {
+      "id": "60da0e0a",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "x"
+            ]
+          },
+          "quiz_draft": {
+            "question": "[REDACTED]",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['x']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "[REDACTED]"
+    },
+    "004f7dd2": {
+      "id": "004f7dd2",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "x"
+            ]
+          },
+          "quiz_draft": {
+            "question": "[REDACTED]",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['x']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "[REDACTED]"
+    },
+    "5e665641": {
+      "id": "5e665641",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "intro"
+            ]
+          },
+          "quiz_draft": {
+            "question": "[REDACTED]",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['intro']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "[REDACTED]"
+    }
+  }
+}

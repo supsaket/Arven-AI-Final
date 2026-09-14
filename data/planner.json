@@ -1,0 +1,181 @@
+{
+  "plans": {
+    "x": {
+      "id": "x",
+      "goal": "x",
+      "steps": [
+        {
+          "action": "a",
+          "args": {},
+          "ref": 1,
+          "status": "planned"
+        }
+      ],
+      "assumptions": [
+        "[]"
+      ],
+      "status": "planned",
+      "created_at": "2026-09-07T10:34:05.495155",
+      "updated_at": "2026-09-07T10:34:05.495167",
+      "replan_events": [],
+      "deprecated": false
+    },
+    "assemble-project": {
+      "id": "assemble-project",
+      "goal": "assemble project",
+      "steps": [
+        {
+          "tool": "eng_calculate",
+          "args": {},
+          "action": "eng_calculate 2+2",
+          "ref": 1,
+          "status": "planned"
+        },
+        {
+          "tool": "date_time",
+          "args": {},
+          "action": "date_time",
+          "ref": 2,
+          "status": "planned"
+        },
+        {
+          "action": "write a summary sheet",
+          "args": {},
+          "ref": 3,
+          "status": "planned"
+        }
+      ],
+      "assumptions": [],
+      "status": "planned",
+      "created_at": "2026-09-07T11:57:26.676757",
+      "updated_at": "2026-09-07T11:57:26.676766",
+      "replan_events": [],
+      "deprecated": false
+    },
+    "daily-status": {
+      "id": "daily-status",
+      "goal": "daily status",
+      "steps": [
+        {
+          "tool": "date_time",
+          "args": {},
+          "action": "date_time",
+          "ref": 1,
+          "status": "planned"
+        },
+        {
+          "tool": "tutor_next",
+          "args": {},
+          "action": "tutor next do it",
+          "ref": 2,
+          "status": "planned"
+        }
+      ],
+      "assumptions": [],
+      "status": "deprecated",
+      "created_at": "2026-09-07T11:57:26.690899",
+      "updated_at": "2026-09-07T11:57:26.705875",
+      "replan_events": [],
+      "deprecated": true
+    },
+    "pause-test": {
+      "id": "pause-test",
+      "goal": "pause test",
+      "steps": [
+        {
+          "tool": "date_time",
+          "args": {},
+          "action": "pause me",
+          "ref": 1,
+          "status": "planned"
+        }
+      ],
+      "assumptions": [],
+      "status": "planned",
+      "created_at": "2026-09-07T11:57:54.640008",
+      "updated_at": "2026-09-07T11:57:54.640017",
+      "replan_events": [],
+      "deprecated": false
+    },
+    "gated": {
+      "id": "gated",
+      "goal": "gated",
+      "steps": [
+        {
+          "tool": "run_shell",
+          "args": {
+            "command": "echo hi"
+          },
+          "action": "do shell thing",
+          "ref": 1,
+          "status": "planned"
+        }
+      ],
+      "assumptions": [],
+      "status": "planned",
+      "created_at": "2026-09-07T11:57:54.650420",
+      "updated_at": "2026-09-07T11:57:54.650425",
+      "replan_events": [],
+      "deprecated": false
+    },
+    "gated2": {
+      "id": "gated2",
+      "goal": "gated2",
+      "steps": [
+        {
+          "tool": "run_shell",
+          "args": {
+            "command": "echo done"
+          },
+          "action": "do shell thing",
+          "ref": 1,
+          "status": "planned"
+        }
+      ],
+      "assumptions": [],
+      "status": "planned",
+      "created_at": "2026-09-07T11:57:54.658030",
+      "updated_at": "2026-09-07T11:57:54.658035",
+      "replan_events": [],
+      "deprecated": false
+    },
+    "complete-me": {
+      "id": "complete-me",
+      "goal": "complete me",
+      "steps": [
+        {
+          "tool": "capability_software",
+          "args": {},
+          "action": "check software",
+          "ref": 1,
+          "status": "planned"
+        }
+      ],
+      "assumptions": [],
+      "status": "planned",
+      "created_at": "2026-09-07T11:57:54.692814",
+      "updated_at": "2026-09-07T11:57:54.692821",
+      "replan_events": [],
+      "deprecated": false
+    },
+    "check-software": {
+      "id": "check-software",
+      "goal": "check software",
+      "steps": [
+        {
+          "tool": "capability_software",
+          "args": {},
+          "action": "capability_software",
+          "ref": 1,
+          "status": "planned"
+        }
+      ],
+      "assumptions": [],
+      "status": "planned",
+      "created_at": "2026-09-07T12:06:41.346058",
+      "updated_at": "2026-09-07T12:06:41.346065",
+      "replan_events": [],
+      "deprecated": false
+    }
+  }
+}

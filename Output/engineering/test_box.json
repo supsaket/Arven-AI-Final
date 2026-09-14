@@ -1,0 +1,13 @@
+{
+  "type": "ARVEN_GEOMETRY",
+  "name": "test_box",
+  "kind": "box",
+  "payload": {
+    "kind": "box",
+    "name": "test_box",
+    "vertices": 8,
+    "facets": 12,
+    "volume_units3": 24.0,
+    "volume_note": "analytic volume"
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "missions.registry": {
+    "mission_1788696707871847900": {
+      "id": "mission_1788696707871847900",
+      "title": "learn python",
+      "goal": "learn python",
+      "priority": 2,
+      "status": "active",
+      "created_at": 1788696707.8718498,
+      "budget_seconds": null,
+      "steps": [
+        {
+          "id": "read_0",
+          "title": "read",
+          "status": "open",
+          "depends": [],
+          "result": null
+        },
+        {
+          "id": "code_1",
+          "title": "code",
+          "status": "open",
+          "depends": [],
+          "result": null
+        }
+      ],
+      "checkpoint_log": [
+        {
+          "at": 1788696707.8718517,
+          "event": "created",
+          "detail": "learn python"
+        }
+      ],
+      "audit": [],
+      "escalations": []
+    },
+    "mission_1788696834730376500": {
+      "id": "mission_1788696834730376500",
+      "title": "learn python",
+      "goal": "learn python",
+      "priority": 2,
+      "status": "active",
+      "created_at": 1788696834.730378,
+      "budget_seconds": null,
+      "steps": [
+        {
+          "id": "read_0",
+          "title": "read",
+          "status": "open",
+          "depends": [],
+          "result": null
+        },
+        {
+          "id": "code_1",
+          "title": "code",
+          "status": "open",
+          "depends": [],
+          "result": null
+        }
+      ],
+      "checkpoint_log": [
+        {
+          "at": 1788696834.7303798,
+          "event": "created",
+          "detail": "learn python"
+        }
+      ],
+      "audit": [],
+      "escalations": []
+    },
+    "mission_1788698063150705100": {
+      "id": "mission_1788698063150705100",
+      "title": "t",
+      "goal": "t",
+      "priority": 5,
+      "status": "active",
+      "created_at": 1788698063.1507072,
+      "budget_seconds": null,
+      "steps": [
+        {
+          "id": "say_hello_0",
+          "title": "say hello",
+          "status": "open",
+          "depends": [],
+          "result": null
+        }
+      ],
+      "checkpoint_log": [
+        {
+          "at": 1788698063.1507099,
+          "event": "created",
+          "detail": "t"
+        }
+      ],
+      "audit": [],
+      "escalations": []
+    },
+    "mission_1788698063152491100": {
+      "id": "mission_1788698063152491100",
+      "title": "test-mission",
+      "goal": "test-mission",
+      "priority": 5,
+      "status": "active",
+      "created_at": 1788698063.1524935,
+      "budget_seconds": null,
+      "steps": [
+        {
+          "id": "say_hello_0",
+          "title": "say hello",
+          "status": "open",
+          "depends": [],
+          "result": null
+        }
+      ],
+      "checkpoint_log": [
+        {
+          "at": 1788698063.1524966,
+          "event": "created",
+          "detail": "test-mission"
+        }
+      ],
+      "audit": [],
+      "escalations": []
+    },
+    "mission_1788698073465661000": {
+      "id": "mission_1788698073465661000",
+      "title": "test-mission",
+      "goal": "test-mission",
+      "priority": 5,
+      "status": "active",
+      "created_at": 1788698073.4656622,
+      "budget_seconds": null,
+      "steps": [
+        {
+          "id": "say_hello_0",
+          "title": "say hello",
+          "status": "open",
+          "depends": [],
+          "result": null
+        }
+      ],
+      "checkpoint_log": [
+        {
+          "at": 1788698073.465664,
+          "event": "created",
+          "detail": "test-mission"
+        }
+      ],
+      "audit": [],
+      "escalations": []
+    },
+    "mission_1788698081868887900": {
+      "id": "mission_1788698081868887900",
+      "title": "test-mission",
+      "goal": "test-mission",
+      "priority": 5,
+      "status": "failed",
+      "created_at": 1788698081.8688896,
+      "budget_seconds": null,
+      "steps": [
+        {
+          "id": "say_hello_0",
+          "title": "say hello",
+          "status": "failed",
+          "depends": [],
+          "result": null
+        }
+      ],
+      "checkpoint_log": [
+        {
+          "at": 1788698081.8688917,
+          "event": "created",
+          "detail": "test-mission"
+        },
+        {
+          "at": 1788698081.8720357,
+          "event": "cancelled",
+          "detail": "cancelled by user"
+        }
+      ],
+      "audit": [
+        {
+          "at": 1788698081.8720338,
+          "event": "cancelled",
+          "reason": "cancelled by user"
+        }
+      ],
+      "escalations": []
+    },
+    "m3_1788758570010708600": {
+      "id": "m3_1788758570010708600",
+      "title": "ops check",
+      "goal": "ops check",
+      "priority": 5,
+      "status": "completed",
+      "created_at": 1788758570.0108206,
+      "budget_seconds": null,
+      "steps": [
+        {
+          "id": "diagnostics_run_0",
+          "title": "diagnostics_run",
+          "status": "done",
+          "depends": [],
+          "result": {
+            "timestamp": "2026-09-07T10:52:50.117030",
+            "platform": "Windows-11-10.0.26200-SP0",
+            "python": "3.13.15",
+            "python_exe": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+            "disk": {
+              "workspace": {
+                "path": "C:\\Users\\supsa\\OneDrive\\Engineering Project\\Arven AI",
+                "total": 480424300544,
+                "used": 231524040704,
+                "free": 248900259840,
+                "percent_used": 48.2
+              },
+              "temp": {
+                "path": "C:\\",
+                "total": 480424300544,
+                "used": 231524040704,
+                "free": 248900259840,
+                "percent_used": 48.2
+              }
+            },
+            "memory": {
+              "total": 16989736960,
+              "available": 7176105984,
+              "used": 9813630976,
+              "percent": 57.8
+            },
+            "cpu": {
+              "percent": 15.6,
+              "count": 16
+            },
+            "network": {
+              "online": true,
+              "method": "core.providers.base.probe_network"
+            },
+            "core_health": {
+              "core.kv": {
+                "status": "AVAILABLE",
+                "ok": true,
+                "loaded": true
+              },
+              "core.output": {
+                "status": "AVAILABLE",
+                "ok": true,
+                "loaded": true
+              },
+              "core.selftest": {
+                "status": "AVAILABLE",
+                "ok": true,
+                "loaded": true
+              },
+              "core.health": {
+                "status": "AVAILABLE",
+                "ok": true,
+                "loaded": true
+              },
+              "core.safety": {
+                "status": "AVAILABLE",
+                "ok": true,
+                "loaded": true
+              },
+              "core.confirmation": {
+                "status": "AVAILABLE",
+                "ok": true,
+                "loaded": true
+              },
+              "core.security": {
+                "status": "AVAILABLE",
+                "ok": true,
+                "loaded": true
+              },
+              "core.recovery": {
+                "status": "AVAILABLE",
+                "ok": true,
+                "loaded": true
+              }
+            },
+            "providers": {
+              "status": "AVAILABLE",
+              "providers": []
+            },
+            "system_check": {
+              "status": "AVAILABLE",
+              "overall": "healthy",
+              "components": [
+                {
+                  "name": "python",
+                  "state": "healthy",
+                  "ok": true,
+                  "details": {
+                    "version": "3.13.15"
+                  }
+                },
+                {
+                  "name": "config",
+                  "state": "healthy",
+                  "ok": true,
+                  "details": {
+                    "app": "ARVEN",
+                    "model": "qwen3.5:4b"
+                  }
+                },
+                {
+                  "name": "tools",
+                  "state": "healthy",
+                  "ok": true,
+                  "details": {
+                    "count": 344
+                  }
+                },
+                {
+                  "name": "logs",
+                  "state": "healthy",
+                  "ok": true,
+                  "details": {
+                    "file": "C:\\Users\\supsa\\OneDrive\\Engineering Project\\Arven AI\\Logs\\arven.log"
+                  }
+                },
+                {
+                  "name": "memory",
+                  "state": "healthy",
+                  "ok": true,
+                  "details": {
+                    "stored": 3
+                  }
+                },
+                {
+                  "name": "voice",
+                  "state": "healthy",
+                  "ok": true,
+                  "details": {
+                    "microphone": true
+                  }
+                }
+              ]
+            },
+            "selftest": {
+              "status": "AVAILABLE",
+              "total": 9,
+              "passed": 9,
+              "failed": 0
+            },
+            "success": true,
+            "status": "ok",
+            "action": "diagnostics_run",
+            "message": "ok"
+          }
+        },
+        {
+          "id": "context_summary_1",
+          "title": "context_summary",
+          "status": "done",
+          "depends": [],
+          "result": {
+            "event_count": 0,
+            "window_start": null,
+            "window_end": null,
+            "tags": {},
+            "top_keywords": [],
+            "focus_topics": [],
+            "recent": [],
+            "success": true,
+            "status": "ok",
+            "action": "context_summary",
+            "message": "ok"
+          }
+        }
+      ],
+      "checkpoint_log": [
+        {
+          "at": 1788758570.0108228,
+          "event": "created",
+          "detail": "ops check"
+        },
+        {
+          "at": 1788758570.0126934,
+          "event": "step_started",
+          "detail": "diagnostics_run",
+          "step_id": "diagnostics_run_0"
+        },
+        {
+          "at": 1788758573.3848476,
+          "event": "step_done",
+          "detail": "diagnostics_run",
+          "step_id": "diagnostics_run_0"
+        },
+        {
+          "at": 1788758573.3890426,
+          "event": "step_started",
+          "detail": "context_summary",
+          "step_id": "context_summary_1"
+        },
+        {
+          "at": 1788758573.3934925,
+          "event": "step_done",
+          "detail": "context_summary",
+          "step_id": "context_summary_1"
+        },
+        {
+          "at": 1788758573.3982518,
+          "event": "finished",
+          "detail": "all steps complete"
+        }
+      ],
+      "audit": [],
+      "escalations": []
+    },
+    "mission_1788763001348935700": {
+      "id": "mission_1788763001348935700",
+      "title": "check software",
+      "goal": "check software",
+      "priority": 5,
+      "status": "active",
+      "created_at": 1788763001.3489404,
+      "budget_seconds": null,
+      "steps": [
+        {
+          "id": "capability_software_0",
+          "title": "capability_software",
+          "status": "done",
+          "depends": [],
+          "result": {
+            "success": true,
+            "status": "ok",
+            "message": "software inventory",
+            "data": {
+              "software": {
+                "python": {
+                  "available": true,
+                  "path": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+                  "version": "3.13.15"
+                },
+                "git": {
+                  "available": true,
+                  "path": "C:\\Program Files\\Git\\cmd\\git.EXE"
+                },
+                "node": {
+                  "available": false
+                },
+                "docker": {
+                  "available": false
+                },
+                "ffmpeg": {
+                  "available": false
+                },
+                "ollama": {
+                  "available": true,
+                  "module": "ollama",
+                  "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\ollama\\__init__.py"
+                },
+                "pytest": {
+                  "available": true,
+                  "module": "pytest",
+                  "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest\\__init__.py"
+                },
+                "PIL": {
+                  "available": true,
+                  "module": "PIL",
+                  "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\__init__.py"
+                },
+                "numpy": {
+                  "available": true,
+                  "module": "numpy",
+                  "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__init__.py"
+                },
+                "psutil": {
+                  "available": true,
+                  "module": "psutil",
+                  "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\psutil\\__init__.py"
+                },
+                "sounddevice": {
+                  "available": true,
+                  "module": "sounddevice",
+                  "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sounddevice.py"
+                },
+                "pycaw": {
+                  "available": true,
+                  "module": "pycaw",
+                  "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pycaw\\__init__.py"
+                },
+                "cv2": {
+                  "available": false
+                },
+                "faster_whisper": {
+                  "available": true,
+                  "module": "faster_whisper",
+                  "origin": "C:\\Users\\supsa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\faster_whisper\\__init__.py"
+                },
+                "playwright": {
+                  "available": false
+                }
+              },
+              "available": [
+                "PIL",
+                "faster_whisper",
+                "git",
+                "numpy",
+                "ollama",
+                "psutil",
+                "pycaw",
+                "pytest",
+                "python",
+                "sounddevice"
+              ],
+              "missing": [
+                "cv2",
+                "docker",
+                "ffmpeg",
+                "node",
+                "playwright"
+              ]
+            },
+            "action": "capability_software"
+          }
+        }
+      ],
+      "checkpoint_log": [
+        {
+          "at": 1788763001.3489459,
+          "event": "created",
+          "detail": "check software"
+        },
+        {
+          "at": 1788763001.35299,
+          "event": "step_started",
+          "detail": "capability_software",
+          "step_id": "capability_software_0"
+        },
+        {
+          "at": 1788763001.5269217,
+          "event": "step_done",
+          "detail": "capability_software",
+          "step_id": "capability_software_0"
+        }
+      ],
+      "audit": [],
+      "escalations": []
+    }
+  }
+}

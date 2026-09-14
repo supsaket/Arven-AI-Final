@@ -1,0 +1,96 @@
+{
+  "projects": [
+    {
+      "name": "demo_web",
+      "kind": "web",
+      "project": "C:\\Users\\supsa\\AppData\\Local\\Temp\\wa_project",
+      "verdict": "FAIL",
+      "at": 1788768568.88171
+    },
+    {
+      "name": "demo_web2",
+      "kind": "web",
+      "project": "C:\\Users\\supsa\\AppData\\Local\\Temp\\wa_project2",
+      "verdict": "FAIL",
+      "at": 1788768578.4083498
+    },
+    {
+      "name": "proj0",
+      "kind": "web",
+      "project": "C:\\Users\\supsa\\AppData\\Local\\Temp\\wa_kind2_0",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "compile=True run=True tests=True"
+      },
+      "at": 1788768658.8473954
+    },
+    {
+      "name": "proj1",
+      "kind": "game",
+      "project": "C:\\Users\\supsa\\AppData\\Local\\Temp\\wa_kind2_1",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "compile=True run=True tests=True"
+      },
+      "at": 1788768662.5236545
+    },
+    {
+      "name": "proj2",
+      "kind": "app",
+      "project": "C:\\Users\\supsa\\AppData\\Local\\Temp\\wa_kind2_2",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "compile=True run=True tests=True"
+      },
+      "at": 1788768666.2146125
+    },
+    {
+      "name": "landing",
+      "kind": "web",
+      "project": "C:\\Users\\supsa\\AppData\\Local\\Temp\\pytest-of-supsa\\pytest-310\\test_create_web_static0",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "compile=True run=True tests=True"
+      },
+      "at": 1788855639.6311831
+    },
+    {
+      "name": "inspected",
+      "kind": "web",
+      "project": "C:\\Users\\supsa\\AppData\\Local\\Temp\\pytest-of-supsa\\pytest-310\\test_inspect_round_trip0",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "compile=True run=True tests=True"
+      },
+      "at": 1788855643.1216605
+    },
+    {
+      "name": "qa_test",
+      "kind": "web",
+      "project": "C:\\Users\\supsa\\AppData\\Local\\Temp\\pytest-of-supsa\\pytest-310\\test_qa_reports_pass_after_rea0",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "compile=True run=True tests=True"
+      },
+      "at": 1788855646.5930529
+    }
+  ]
+}

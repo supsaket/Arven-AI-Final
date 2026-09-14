@@ -1,0 +1,45 @@
+{
+  "travel.trips": {
+    "trip_1788695817265945400": {
+      "trip_id": "trip_1788695817265945400",
+      "destinations": [
+        "Paris",
+        "London"
+      ],
+      "dates": [
+        "2026-07-01",
+        "2026-07-03"
+      ],
+      "pace": "moderate",
+      "transport": "car",
+      "days": 2,
+      "schedule": [
+        {
+          "day": 1,
+          "date": "2026-07-01",
+          "destination": "Paris",
+          "activities": 2
+        },
+        {
+          "day": 2,
+          "date": "2026-07-03",
+          "destination": "London",
+          "leg_km": null,
+          "leg_duration_min": 90,
+          "activities": 2
+        }
+      ],
+      "totals": {
+        "budget": 1000.0,
+        "nights": 1,
+        "accommodation_per_night": 600.0,
+        "accommodation_total": 600.0,
+        "transport_total": 250.0,
+        "meals_total": 150.0,
+        "estimated_total": 1000.0
+      },
+      "estimate": true,
+      "built_at": 1788695817.2659469
+    }
+  }
+}

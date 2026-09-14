@@ -1,0 +1,22 @@
+{
+  "vehicle.vehicles": {
+    "AB12 CDE": {
+      "reg": "AB12 CDE",
+      "make": "",
+      "model": "",
+      "maintenance": [
+        {
+          "odometer": 50000.0,
+          "service_type": "oil change",
+          "cost": 120.0,
+          "date": "2026-09-06",
+          "source": "user",
+          "logged_at": 1788696327.938
+        }
+      ],
+      "source": "user",
+      "last_service_date": "2026-09-06",
+      "last_odometer": 50000.0
+    }
+  }
+}

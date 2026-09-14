@@ -1,0 +1,72 @@
+[
+  {
+    "to": "[REDACTED]",
+    "subject": "t",
+    "body": "t",
+    "sent_at": "2026-09-06T14:43:52.582721",
+    "delivered": false
+  },
+  {
+    "to": "[REDACTED]",
+    "subject": "t",
+    "body": "t",
+    "sent_at": "2026-09-06T14:43:52.584424",
+    "delivered": false
+  },
+  {
+    "to": "[REDACTED]",
+    "subject": "t",
+    "body": "t",
+    "sent_at": "2026-09-06T14:52:57.475352",
+    "delivered": false
+  },
+  {
+    "to": "[REDACTED]",
+    "subject": "t",
+    "body": "t",
+    "sent_at": "2026-09-06T14:52:57.476629",
+    "delivered": false
+  },
+  {
+    "to": "[REDACTED]",
+    "subject": "x",
+    "body": "y",
+    "sent_at": "2026-09-06T14:53:00.200961",
+    "delivered": false
+  },
+  {
+    "to": "[REDACTED]",
+    "subject": "x",
+    "body": "y",
+    "sent_at": "2026-09-06T14:53:00.201980",
+    "delivered": false
+  },
+  {
+    "to": "[REDACTED]",
+    "subject": "x",
+    "body": "y",
+    "sent_at": "2026-09-06T14:56:33.856365",
+    "delivered": false
+  },
+  {
+    "to": "[REDACTED]",
+    "subject": "x",
+    "body": "y",
+    "sent_at": "2026-09-06T14:56:33.857353",
+    "delivered": false
+  },
+  {
+    "to": "[REDACTED]",
+    "subject": "t",
+    "body": "t",
+    "sent_at": "2026-09-06T14:56:34.942463",
+    "delivered": false
+  },
+  {
+    "to": "[REDACTED]",
+    "subject": "t",
+    "body": "t",
+    "sent_at": "2026-09-06T14:56:34.944358",
+    "delivered": false
+  }
+]

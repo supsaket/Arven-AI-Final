@@ -1,0 +1,27 @@
+{
+  "turns": [
+    {
+      "turn_id": "db8c4122",
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "channels": [
+        "conversation",
+        "vision"
+      ],
+      "at": "2026-09-06T17:41:47.879717",
+      "speaker": null,
+      "payload": {
+        "text": "hello",
+        "image_path": "x.png"
+      }
+    }
+  ],
+  "conversation_records": [
+    {
+      "text": "hello",
+      "at": "2026-09-06T17:41:47.881000"
+    }
+  ]
+}

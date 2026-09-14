@@ -6,5 +6,17 @@
   "tests/test_communication_tools.py::test_calendar_create_requires_confirmation": true,
   "tests/test_communication_tools.py::test_calendar_create_with_confirmation": true,
   "tests/test_communication_tools.py::test_messaging_send_requires_confirmation": true,
-  "tests/test_communication_tools.py::test_messaging_send_with_confirmation": true
+  "tests/test_communication_tools.py::test_messaging_send_with_confirmation": true,
+  "_tmp_test.py": true,
+  "tests/day3/test_day3_lifecycle.py::test_bounce_from_work_to_work_illegal": true,
+  "tests/day5/test_day5_112_async.py::test_timeout_produces_terminal_timeout_state": true,
+  "tests/day5/test_day5_112_async.py::test_cancel_queued_job": true,
+  "tests/day5/test_day5_115_computer_use.py::test_status_reports_honest_capability": true,
+  "tests/day5/test_day5_116_cad.py::test_stl_round_trip_inspect_validate": true,
+  "tests/day5/test_day5_116_cad.py::test_export_converts_to_obj": true,
+  "tests/day5/test_day5_116_cad.py::test_hull_reconstruction": true,
+  "tests/day5/test_day5_117_pcb.py::test_create_board_shield": true,
+  "tests/day5/test_day5_117_pcb.py::test_detect": true,
+  "tests/day5/test_day5_120_artifact.py::test_render_pptx_reports_honestly": true,
+  "tests/day5/test_day5_120_artifact.py::test_comparison_verifies_round_trip": true
 }

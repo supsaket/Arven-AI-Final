@@ -1,0 +1,11 @@
+{
+  "report::weekly": {
+    "sections": [
+      {
+        "title": "Intro",
+        "body": "hello text"
+      }
+    ],
+    "tables": []
+  }
+}

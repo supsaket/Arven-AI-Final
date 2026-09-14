@@ -1,0 +1,21 @@
+{
+  "filename": "finance_report_2026-09.md_4",
+  "created_at": "2026-09-06T17:35:27.932756",
+  "type": "ARVEN_OUTPUT",
+  "feature": "81/102",
+  "module": "finance",
+  "month": "2026-09",
+  "period_totals": {
+    "transaction_count": 1,
+    "income": 0.0,
+    "expense": 12.5,
+    "net": -12.5,
+    "category_breakdown": {
+      "food": {
+        "expense": 12.5,
+        "income": 0.0
+      }
+    }
+  },
+  "budget_alerts": 0
+}

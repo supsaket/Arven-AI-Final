@@ -1,0 +1,16 @@
+{
+  "preferences": {
+    "tone": {
+      "value": "calm",
+      "consented": true,
+      "at": "2026-09-06T17:35:27.946961"
+    }
+  },
+  "consent_log": [
+    {
+      "at": "2026-09-06T17:35:27.947916",
+      "action": "set_preference",
+      "name": "tone"
+    }
+  ]
+}

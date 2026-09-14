@@ -1,0 +1,114 @@
+{
+  "_participants": {},
+  "830aa36386cf": {
+    "id": "830aa36386cf",
+    "title": "standup",
+    "agenda": [],
+    "topics": [],
+    "decisions": [],
+    "action_items": [],
+    "transcript": [],
+    "participants": [],
+    "current_topic": null,
+    "created_at": "[REDACTED]",
+    "summary": null
+  },
+  "3f98c84d80d9": {
+    "id": "3f98c84d80d9",
+    "title": "standup",
+    "agenda": [
+      "sync",
+      "plans"
+    ],
+    "topics": [],
+    "decisions": [],
+    "action_items": [],
+    "transcript": [],
+    "participants": [],
+    "current_topic": null,
+    "created_at": "[REDACTED]",
+    "summary": null
+  },
+  "ac566488d66f": {
+    "id": "ac566488d66f",
+    "title": "standup",
+    "agenda": [
+      "sync",
+      "plans"
+    ],
+    "topics": [],
+    "decisions": [],
+    "action_items": [],
+    "transcript": [],
+    "participants": [],
+    "current_topic": null,
+    "created_at": "[REDACTED]",
+    "summary": null
+  },
+  "93bd399ec3dd": {
+    "id": "93bd399ec3dd",
+    "title": "standup",
+    "agenda": [
+      "sync",
+      "plans"
+    ],
+    "topics": [],
+    "decisions": [
+      {
+        "text": "ship it",
+        "recorded_at": "[REDACTED]"
+      }
+    ],
+    "action_items": [
+      {
+        "owner": "bob",
+        "due": "2026-09-06",
+        "text": "ok",
+        "status": "open",
+        "added_at": "[REDACTED]"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "alice",
+        "text": "noted",
+        "at": "[REDACTED]"
+      }
+    ],
+    "participants": [],
+    "current_topic": null,
+    "created_at": "[REDACTED]",
+    "summary": {
+      "title": "standup",
+      "created_at": "[REDACTED]",
+      "agenda": [
+        "sync",
+        "plans"
+      ],
+      "decisions": [
+        {
+          "text": "ship it",
+          "recorded_at": "[REDACTED]"
+        }
+      ],
+      "action_items": [
+        {
+          "owner": "bob",
+          "due": "2026-09-06",
+          "text": "ok",
+          "status": "open",
+          "added_at": "[REDACTED]"
+        }
+      ],
+      "transcript": [
+        {
+          "speaker": "alice",
+          "text": "noted",
+          "at": "[REDACTED]"
+        }
+      ],
+      "participants": [],
+      "current_topic": null
+    }
+  }
+}

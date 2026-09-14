@@ -1,0 +1,23 @@
+{
+  "budgets": {
+    "food": {
+      "category": "food",
+      "month": "2026-09",
+      "limit": 200.0,
+      "note": "",
+      "set_at": "2026-09-06T17:35:27.929425"
+    }
+  },
+  "transactions": [
+    {
+      "id": "tx-1788696327927183500",
+      "date": "2026-09-06",
+      "category": "food",
+      "amount": 12.5,
+      "type": "expense",
+      "note": "",
+      "created_at": "2026-09-06T17:35:27.927192",
+      "voided": false
+    }
+  ]
+}

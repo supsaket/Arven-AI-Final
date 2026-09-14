@@ -1,0 +1,33 @@
+{
+  "__twins": {
+    "probe": {
+      "name": "probe",
+      "system": {
+        "motion": {
+          "target_velocity": 1.0
+        }
+      },
+      "state": {
+        "x": 1
+      },
+      "simulations": []
+    }
+  },
+  "system:demo": {
+    "name": "demo",
+    "requirements": [],
+    "dimensions": {
+      "x": null,
+      "y": null,
+      "z": null
+    },
+    "mass": 2.0,
+    "power": null,
+    "motion": {},
+    "sensors": [],
+    "actuators": [],
+    "environment": {},
+    "constraints": {},
+    "created_at": 1788776742.2851155
+  }
+}

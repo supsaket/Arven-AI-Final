@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "operation": "process",
+      "at": 1788770659.4651892,
+      "strategy": "RETRIEVE->COMPRESS->COMPACT->CONTINUE",
+      "input_tokens": 1813,
+      "max_context": 2000,
+      "result": {
+        "mode": "COMPACTED",
+        "chunks": 2,
+        "original_tokens": 1813,
+        "compressed_tokens": 13,
+        "summary": "CRITICAL_TOKEN_FACT helper survives compaction. sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here senten",
+        "retrieval_hits": [
+          {
+            "doc_id": 0,
+            "score": 1204,
+            "text": "CRITICAL_TOKEN_FACT helper survives compaction.\nsentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here s"
+          },
+          {
+            "doc_id": 1,
+            "score": 1200,
+            "text": " context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context words here sentence of padding context w"
+          }
+        ]
+      }
+    },
+    {
+      "operation": "checkpoint",
+      "at": 1788770659.4705064,
+      "name": "cx",
+      "path": "Output\\long_context\\cx_1788770659.json",
+      "state_keys": [
+        "note",
+        "v"
+      ]
+    }
+  ]
+}

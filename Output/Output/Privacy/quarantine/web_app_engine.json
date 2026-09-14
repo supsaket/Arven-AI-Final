@@ -1,0 +1,96 @@
+{
+  "projects": [
+    {
+      "name": "demo_web",
+      "kind": "web",
+      "project": "[REDACTED]",
+      "verdict": "FAIL",
+      "at": 1788768568.88171
+    },
+    {
+      "name": "demo_web2",
+      "kind": "web",
+      "project": "[REDACTED]",
+      "verdict": "FAIL",
+      "at": 1788768578.4083498
+    },
+    {
+      "name": "proj0",
+      "kind": "web",
+      "project": "[REDACTED]",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "[REDACTED]"
+      },
+      "at": 1788768658.8473954
+    },
+    {
+      "name": "proj1",
+      "kind": "game",
+      "project": "[REDACTED]",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "[REDACTED]"
+      },
+      "at": 1788768662.5236545
+    },
+    {
+      "name": "proj2",
+      "kind": "app",
+      "project": "[REDACTED]",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "[REDACTED]"
+      },
+      "at": 1788768666.2146125
+    },
+    {
+      "name": "landing",
+      "kind": "web",
+      "project": "[REDACTED]",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "[REDACTED]"
+      },
+      "at": 1788855639.6311831
+    },
+    {
+      "name": "inspected",
+      "kind": "web",
+      "project": "[REDACTED]",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "[REDACTED]"
+      },
+      "at": 1788855643.1216605
+    },
+    {
+      "name": "qa_test",
+      "kind": "web",
+      "project": "[REDACTED]",
+      "verdict": {
+        "verdict": "PASS",
+        "build": true,
+        "run": true,
+        "test": true,
+        "detail": "[REDACTED]"
+      },
+      "at": 1788855646.5930529
+    }
+  ]
+}

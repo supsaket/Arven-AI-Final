@@ -1,0 +1,10 @@
+{
+  "lists": {
+    "groceries": {
+      "name": "groceries",
+      "created_at": "2026-09-06T17:32:27.082677",
+      "updated_at": "2026-09-06T17:32:27.082681",
+      "items": []
+    }
+  }
+}

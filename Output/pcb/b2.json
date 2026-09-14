@@ -1,0 +1,152 @@
+{
+  "id": "board_1788772889692977100",
+  "name": "b2",
+  "layers": [
+    "F.Cu",
+    "B.Cu",
+    "F.Mask",
+    "B.Mask",
+    "F.SilkS",
+    "B.SilkS",
+    "Edge.Cuts"
+  ],
+  "dimensions": {
+    "x_mm": 60.0,
+    "y_mm": 40.0
+  },
+  "parts": [
+    {
+      "ref": "U1",
+      "value": "MCU",
+      "x": 15,
+      "y": 12,
+      "footprint_w": 8,
+      "footprint_h": 8,
+      "net": "VCC"
+    },
+    {
+      "ref": "R1",
+      "value": "10K",
+      "x": 30,
+      "y": 12,
+      "footprint_w": 2,
+      "footprint_h": 2,
+      "net": "NET1"
+    },
+    {
+      "ref": "R2",
+      "value": "1K",
+      "x": 30,
+      "y": 24,
+      "footprint_w": 2,
+      "footprint_h": 2,
+      "net": "NET1"
+    },
+    {
+      "ref": "J1",
+      "value": "HEADER",
+      "x": 44,
+      "y": 20,
+      "footprint_w": 6,
+      "footprint_h": 6,
+      "net": "NET1"
+    },
+    {
+      "ref": "C1",
+      "value": "100nF",
+      "x": 18,
+      "y": 28,
+      "footprint_w": 2,
+      "footprint_h": 2,
+      "net": "VCC"
+    }
+  ],
+  "net_traces": {
+    "VCC": [
+      [
+        [
+          19,
+          12
+        ],
+        [
+          29,
+          12
+        ]
+      ],
+      [
+        [
+          19,
+          12
+        ],
+        [
+          17,
+          28
+        ]
+      ]
+    ],
+    "NET1": [
+      [
+        [
+          31,
+          12
+        ],
+        [
+          41,
+          20
+        ]
+      ],
+      [
+        [
+          41,
+          20
+        ],
+        [
+          31,
+          24
+        ]
+      ]
+    ],
+    "NET2": [
+      [
+        [
+          29,
+          24
+        ],
+        [
+          39,
+          26
+        ],
+        [
+          47,
+          20
+        ]
+      ]
+    ],
+    "GND": [
+      [
+        [
+          19,
+          28
+        ],
+        [
+          30,
+          32
+        ],
+        [
+          40,
+          30
+        ]
+      ]
+    ]
+  },
+  "vias": [
+    [
+      30,
+      18
+    ],
+    [
+      36,
+      24
+    ]
+  ]
+}

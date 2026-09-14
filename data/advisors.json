@@ -1,0 +1,169 @@
+{
+  "_followups": [],
+  "_curricula": {
+    "6c22cac8": {
+      "id": "6c22cac8",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "x"
+            ]
+          },
+          "quiz_draft": {
+            "question": "What is the main concept of '{'title': 'basics', 'outline': ['x']}'?",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['x']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "2026-09-06T12:09:25.646322+00:00"
+    },
+    "0122e5bf": {
+      "id": "0122e5bf",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "x"
+            ]
+          },
+          "quiz_draft": {
+            "question": "What is the main concept of '{'title': 'basics', 'outline': ['x']}'?",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['x']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "2026-09-06T12:09:25.947906+00:00"
+    },
+    "3e7d69fc": {
+      "id": "3e7d69fc",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "x"
+            ]
+          },
+          "quiz_draft": {
+            "question": "What is the main concept of '{'title': 'basics', 'outline': ['x']}'?",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['x']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "2026-09-06T12:09:26.250518+00:00"
+    },
+    "60da0e0a": {
+      "id": "60da0e0a",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "x"
+            ]
+          },
+          "quiz_draft": {
+            "question": "What is the main concept of '{'title': 'basics', 'outline': ['x']}'?",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['x']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "2026-09-06T12:09:26.552580+00:00"
+    },
+    "004f7dd2": {
+      "id": "004f7dd2",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "x"
+            ]
+          },
+          "quiz_draft": {
+            "question": "What is the main concept of '{'title': 'basics', 'outline': ['x']}'?",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['x']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "2026-09-06T12:09:26.855097+00:00"
+    },
+    "5e665641": {
+      "id": "5e665641",
+      "topic": "python",
+      "level": "beginner",
+      "modules": [
+        {
+          "module": 1,
+          "title": {
+            "title": "basics",
+            "outline": [
+              "intro"
+            ]
+          },
+          "quiz_draft": {
+            "question": "What is the main concept of '{'title': 'basics', 'outline': ['intro']}'?",
+            "options": [
+              "Core idea of {'title': 'basics', 'outline': ['intro']}",
+              "Unrelated concept",
+              "None of the above"
+            ],
+            "answer": 0
+          },
+          "completed": false
+        }
+      ],
+      "created_at": "2026-09-06T12:09:46.975363+00:00"
+    }
+  },
+  "_checkins": [],
+  "_appreciation_log": []
+}

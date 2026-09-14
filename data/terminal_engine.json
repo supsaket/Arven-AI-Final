@@ -1,0 +1,107 @@
+{
+  "audit": [
+    {
+      "principal": "boss",
+      "action": "plan_list",
+      "status": "ok",
+      "at": "2026-09-07T10:52:47.050502"
+    },
+    {
+      "principal": "boss",
+      "action": "mission",
+      "mission_id": "m3_1788758570010708600",
+      "status": "completed",
+      "at": "2026-09-07T10:52:53.400750"
+    },
+    {
+      "principal": "boss",
+      "action": "plan_list",
+      "status": "ok",
+      "at": "2026-09-07T10:53:01.680098"
+    },
+    {
+      "principal": "boss",
+      "action": "plan_list",
+      "status": "ok",
+      "at": "2026-09-07T10:53:02.791866"
+    },
+    {
+      "principal": "boss",
+      "action": "cyber_scan",
+      "status": "confirm_required",
+      "at": "2026-09-07T10:53:14.547093"
+    },
+    {
+      "principal": "boss",
+      "action": "cyber_scan",
+      "status": "confirm_required",
+      "at": "2026-09-07T10:54:26.345819"
+    },
+    {
+      "principal": "boss",
+      "action": "list_files",
+      "status": "error",
+      "at": "2026-09-07T10:54:27.402147"
+    },
+    {
+      "principal": "boss",
+      "action": "er_register",
+      "status": "invalid_argument",
+      "at": "2026-09-08T13:27:40.156326"
+    },
+    {
+      "principal": "boss",
+      "action": "art_ensure",
+      "status": "FAILED",
+      "at": "2026-09-08T13:27:40.165626"
+    },
+    {
+      "principal": "boss",
+      "action": "art_ensure",
+      "status": "FAILED",
+      "at": "2026-09-08T13:32:38.321729"
+    },
+    {
+      "principal": "boss",
+      "action": "art_ensure",
+      "status": "FAILED",
+      "at": "2026-09-08T13:32:39.341031"
+    },
+    {
+      "principal": "boss",
+      "action": "capability_dependencies",
+      "status": "ok",
+      "at": "2026-09-08T13:32:39.356109"
+    },
+    {
+      "principal": "boss",
+      "action": "feature_status",
+      "status": "invalid_argument",
+      "at": "2026-09-08T13:32:39.368325"
+    },
+    {
+      "principal": "boss",
+      "action": "alert_close",
+      "status": "invalid_argument",
+      "at": "2026-09-08T13:32:39.386776"
+    },
+    {
+      "principal": "boss",
+      "action": "browser_provider_search",
+      "status": "invalid_argument",
+      "at": "2026-09-08T13:32:39.398079"
+    },
+    {
+      "principal": "boss",
+      "action": "diagnostics_run",
+      "status": "ok",
+      "at": "2026-09-08T13:32:39.407034"
+    },
+    {
+      "principal": "boss",
+      "action": "action_status",
+      "status": "AVAILABLE",
+      "at": "2026-09-08T13:33:22.357308"
+    }
+  ]
+}

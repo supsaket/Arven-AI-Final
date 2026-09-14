@@ -1,0 +1,30 @@
+{
+  "boards": {
+    "68d9a0e3": {
+      "id": "68d9a0e3",
+      "name": "team",
+      "columns": [
+        {
+          "id": "todo",
+          "title": "todo",
+          "cards": [],
+          "wip_limit": null
+        },
+        {
+          "id": "done",
+          "title": "done",
+          "cards": [],
+          "wip_limit": null
+        }
+      ]
+    }
+  },
+  "activity_log": [
+    {
+      "action": "create_board",
+      "board": "68d9a0e3",
+      "name": "team",
+      "at": "2026-09-06T17:41:25.698357"
+    }
+  ]
+}

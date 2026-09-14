@@ -1,0 +1,11 @@
+{
+  "location.places": {
+    "home": {
+      "name": "home",
+      "lat": 51.5,
+      "lon": -0.12,
+      "label": "home",
+      "updated_at": 1788696327.9337654
+    }
+  }
+}

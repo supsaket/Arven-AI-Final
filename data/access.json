@@ -1,0 +1,277 @@
+{
+  "_grants": [],
+  "_audit": [
+    {
+      "event": "revoke",
+      "at": 1788702292.3074055,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702418.9617815,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702479.3810418,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702497.307837,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702543.7026858,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702621.840148,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702653.3688452,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702692.8945038,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788703071.1487339,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788755449.7641711,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788755529.2031953,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788755549.664374,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788755583.0934052,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788755620.6009545,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788755675.54027,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788755712.8089862,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788760102.2007732,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788760150.9979637,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788760199.5360518,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788760335.937781,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788764199.4822257,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788774445.358836,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788774544.448054,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788774633.3793192,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788774749.3711848,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788774865.9931355,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788774960.174929,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788777584.5874722,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788777667.1529806,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788777739.7971985,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788778789.7896936,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788778997.8142517,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788855516.9948504,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788855658.3175702,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "iot.devices": {
+    "dev_1788696147084299000": {
+      "id": "dev_1788696147084299000",
+      "kind": "simulated",
+      "name": "lamp",
+      "capabilities": [],
+      "state": {},
+      "status": "registered",
+      "simulated": true,
+      "registered_at": 1788696147.0843005,
+      "power_watts": null,
+      "hours_per_day": null
+    },
+    "dev_1788696327940222900": {
+      "id": "dev_1788696327940222900",
+      "kind": "simulated",
+      "name": "lamp",
+      "capabilities": [],
+      "state": {},
+      "status": "registered",
+      "simulated": true,
+      "registered_at": 1788696327.9402258,
+      "power_watts": null,
+      "hours_per_day": null
+    },
+    "dev_1788758416573076500": {
+      "id": "dev_1788758416573076500",
+      "kind": "simulated",
+      "name": "dev_1788758416573076500",
+      "capabilities": [],
+      "state": {},
+      "status": "registered",
+      "simulated": true,
+      "registered_at": 1788758416.5730805,
+      "power_watts": null,
+      "hours_per_day": null
+    }
+  }
+}

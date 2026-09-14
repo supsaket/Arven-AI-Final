@@ -1,0 +1,178 @@
+{
+  "history": [
+    {
+      "fingerprint": "terminal|terminal.plan_list",
+      "source": "terminal",
+      "event_type": "terminal.plan_list",
+      "severity": "low",
+      "payload": {
+        "status": "ok"
+      },
+      "at": 1788758567.9018228,
+      "iso": "2026-09-07T10:52:47.901827",
+      "deduplicated": true,
+      "status": "unhandled",
+      "repeated_at": 1788758583.5855567
+    },
+    {
+      "fingerprint": "[REDACTED]",
+      "source": "terminal",
+      "event_type": "[REDACTED]",
+      "severity": "low",
+      "payload": {
+        "step": "diagnostics_run_0",
+        "status": "done"
+      },
+      "at": 1788758573.387391,
+      "iso": "2026-09-07T10:52:53.387399",
+      "deduplicated": true,
+      "status": "unhandled",
+      "repeated_at": 1788758573.3963466
+    },
+    {
+      "fingerprint": "terminal|terminal.list_files",
+      "source": "terminal",
+      "event_type": "terminal.list_files",
+      "severity": "high",
+      "payload": {
+        "status": "error"
+      },
+      "at": 1788758668.2527134,
+      "iso": "2026-09-07T10:54:28.252721",
+      "deduplicated": false,
+      "status": "escaped"
+    },
+    {
+      "fingerprint": "terminal|terminal.art_ensure",
+      "source": "terminal",
+      "event_type": "terminal.art_ensure",
+      "severity": "high",
+      "payload": {
+        "status": "FAILED"
+      },
+      "at": 1788854260.1747417,
+      "iso": "2026-09-08T13:27:40.174752",
+      "deduplicated": false,
+      "status": "escaped"
+    },
+    {
+      "fingerprint": "terminal|terminal.art_ensure",
+      "source": "terminal",
+      "event_type": "terminal.art_ensure",
+      "severity": "high",
+      "payload": {
+        "status": "FAILED"
+      },
+      "at": 1788854559.3302689,
+      "iso": "2026-09-08T13:32:39.330279",
+      "deduplicated": true,
+      "status": "escaped",
+      "repeated_at": 1788854559.345917
+    },
+    {
+      "fingerprint": "[REDACTED]",
+      "source": "terminal",
+      "event_type": "[REDACTED]",
+      "severity": "low",
+      "payload": {
+        "status": "ok"
+      },
+      "at": 1788854559.3638947,
+      "iso": "2026-09-08T13:32:39.363900",
+      "deduplicated": false,
+      "status": "unhandled"
+    },
+    {
+      "fingerprint": "[REDACTED]",
+      "source": "terminal",
+      "event_type": "terminal.diagnostics_run",
+      "severity": "low",
+      "payload": {
+        "status": "ok"
+      },
+      "at": 1788854602.3525124,
+      "iso": "2026-09-08T13:33:22.352521",
+      "deduplicated": false,
+      "status": "unhandled"
+    },
+    {
+      "fingerprint": "[REDACTED]",
+      "source": "terminal",
+      "event_type": "terminal.action_status",
+      "severity": "low",
+      "payload": {
+        "status": "AVAILABLE"
+      },
+      "at": 1788854602.3665526,
+      "iso": "2026-09-08T13:33:22.366562",
+      "deduplicated": false,
+      "status": "unhandled"
+    },
+    {
+      "fingerprint": "[REDACTED]",
+      "source": "terminal",
+      "event_type": "terminal.action_status",
+      "severity": "low",
+      "payload": {
+        "status": "AVAILABLE"
+      },
+      "at": 1788855154.9149396,
+      "iso": "2026-09-08T13:42:34.914947",
+      "deduplicated": false,
+      "status": "unhandled"
+    },
+    {
+      "fingerprint": "[REDACTED]",
+      "source": "terminal",
+      "event_type": "terminal.action_status",
+      "severity": "low",
+      "payload": {
+        "status": "AVAILABLE"
+      },
+      "at": 1788855258.2820656,
+      "iso": "2026-09-08T13:44:18.282074",
+      "deduplicated": false,
+      "status": "unhandled"
+    },
+    {
+      "fingerprint": "[REDACTED]",
+      "source": "terminal",
+      "event_type": "terminal.action_status",
+      "severity": "low",
+      "payload": {
+        "status": "AVAILABLE"
+      },
+      "at": 1788855327.1622167,
+      "iso": "2026-09-08T13:45:27.162222",
+      "deduplicated": true,
+      "status": "unhandled",
+      "repeated_at": 1788855339.3511264
+    },
+    {
+      "fingerprint": "[REDACTED]",
+      "source": "terminal",
+      "event_type": "terminal.action_status",
+      "severity": "low",
+      "payload": {
+        "status": "AVAILABLE"
+      },
+      "at": 1788855508.4859357,
+      "iso": "2026-09-08T13:48:28.485944",
+      "deduplicated": false,
+      "status": "unhandled"
+    },
+    {
+      "fingerprint": "[REDACTED]",
+      "source": "terminal",
+      "event_type": "terminal.action_status",
+      "severity": "low",
+      "payload": {
+        "status": "AVAILABLE"
+      },
+      "at": 1788855649.9334807,
+      "iso": "2026-09-08T13:50:49.933490",
+      "deduplicated": false,
+      "status": "unhandled"
+    }
+  ]
+}

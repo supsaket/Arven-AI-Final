@@ -1,0 +1,53 @@
+{
+  "_grants": [],
+  "_audit": [
+    {
+      "event": "revoke",
+      "at": 1788702292.3074055,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702418.9617815,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702479.3810418,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702497.307837,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702543.7026858,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    },
+    {
+      "event": "revoke",
+      "at": 1788702582.3052828,
+      "scope": "docs",
+      "action": "write",
+      "principal": "alex",
+      "removed": 0
+    }
+  ]
+}

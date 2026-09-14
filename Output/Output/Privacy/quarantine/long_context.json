@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "operation": "process",
+      "at": 1788770659.4651892,
+      "strategy": "[REDACTED]",
+      "input_tokens": "[REDACTED]",
+      "max_context": 2000,
+      "result": {
+        "mode": "COMPACTED",
+        "chunks": 2,
+        "original_tokens": "[REDACTED]",
+        "compressed_tokens": "[REDACTED]",
+        "summary": "[REDACTED]",
+        "retrieval_hits": [
+          {
+            "doc_id": 0,
+            "score": 1204,
+            "text": "[REDACTED]"
+          },
+          {
+            "doc_id": 1,
+            "score": 1200,
+            "text": "[REDACTED]"
+          }
+        ]
+      }
+    },
+    {
+      "operation": "checkpoint",
+      "at": 1788770659.4705064,
+      "name": "cx",
+      "path": "[REDACTED]",
+      "state_keys": [
+        "note",
+        "v"
+      ]
+    }
+  ]
+}
